@@ -9,6 +9,10 @@ import java.util.List;
 public class StudentController {
     @Autowired
     private StudentService studentService;
+    @GetMapping("/welcome")
+    public String welcome(){
+        return "Welcome to my app.";
+    }
     @GetMapping("/students")
     public List<Student> retrieveStudents(){
 
