@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd /root
+cd /home/ubuntu
 java -jar student-app.jar
