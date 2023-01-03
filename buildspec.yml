@@ -11,4 +11,7 @@ phases:
 artifacts:
   files:
     - target/student-app.jar
+    - afterinstall.sh
+    - applicationstart.sh
+    - appspec.yml
   discard-paths: yes
